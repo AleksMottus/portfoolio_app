@@ -2,9 +2,10 @@
     box-sizing: border-box;
 }
 .kogutoo{
-    background-image: url("./assets/portfooliotaust.jfif");
+    background-image: url("./assets/Kogutootaust.avif");
     background-repeat: none;
     background-size: cover;
+    height: 950px;
 
 }
 .kaart2{
