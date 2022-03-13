@@ -46,6 +46,13 @@
     color: rgb(211, 211, 211);
     font-weight: 600; 
 }
+.kaart7{
+    color: rgb(3, 3, 3);
+    background-image: url("./assets/reactBackground2.jpg");
+    background-size: cover;
+    color: rgb(211, 211, 211);
+    font-weight: 600; 
+}
 
 @media screen and (min-width: 1000px) {
     body{
