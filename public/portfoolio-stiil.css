@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 .kogutoo{
     background-image: url("./assets/Kogutootaust.avif");
     background-repeat: none;
@@ -54,7 +55,7 @@
     font-weight: 600; 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 400px) {
     body{
         background-color: blanchedalmond;
     }
@@ -62,7 +63,7 @@
         width: 30%;
      }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 300px) {
     .container{
         flex-direction: row;
         flex-wrap: wrap;
@@ -75,7 +76,7 @@
     
 }
 .naidispilt{
-    height: 166px;
+    height: 200px;
 }
 h1{
     font-weight: 500;
@@ -83,3 +84,4 @@ h1{
     color: rgb(0, 0, 0);
     font-style: italic;
 }
+
