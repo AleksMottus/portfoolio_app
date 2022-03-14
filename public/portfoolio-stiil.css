@@ -1,7 +1,16 @@
 *{
     box-sizing: border-box;
 }
-
+.container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.card{
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
 .kogutoo{
     background-image: url("./assets/Kogutootaust.avif");
     background-repeat: none;
@@ -55,26 +64,7 @@
     font-weight: 600; 
 }
 
-@media screen and (min-width: 400px) {
-    body{
-        background-color: blanchedalmond;
-    }
-    .card{ 
-        width: 30%;
-     }
-}
-@media screen and (min-width: 300px) {
-    .container{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .card{
-        margin-top: 15px;
-       margin-right: 20px;
-     
-    }
-    
-}
+
 .naidispilt{
     height: 200px;
 }
